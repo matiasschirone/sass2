@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #5858f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #fc79e6;
+  color: #0a0404;
+  padding: 20px;
+  border-radius: 2%;
+}
+
+.header h1 {
+  color: #0a0909;
+  text-align: center;
+}
+
+.header ul {
+  text-align: right;
+}
+
+.header li {
+  display: inline-block;
+  color: #0a0909;
+}
+
+.header a {
+  color: #0a0909;
+}
+
+.caja1 {
+  background-color: #0a0909;
+  color: #5858f8;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Yellowtail", cursive;
+  font-style: oblique;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.5;
+  width: 40%;
+}
+
+.caja2 {
+  background-color: #0a0404;
+  color: #a6f5a6;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Yellowtail", cursive;
+  font-style: oblique;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.5;
+  width: 40%;
+}
+
+.caja3 {
+  background-color: #070838;
+  color: #fc79e6;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Yellowtail", cursive;
+  font-style: oblique;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.5;
+  width: 40%;
+}
+
+.caja4 {
+  background-color: #0a0404;
+  color: #a6f5a6;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Yellowtail", cursive;
+  font-style: oblique;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.5;
+  width: 40%;
+}
+
+.text, .text1, .text2, .text3, .text4 {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Yellowtail", cursive;
+  font-style: oblique;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.5;
+  width: 25%;
+}
+
+.text1 {
+  background-color: #5858f8;
+  color: #0a0909;
+}
+
+.text2 {
+  background-color: #fc79e6;
+  color: #070838;
+}
+
+.text3 {
+  background-color: #a6f5a6;
+  color: #0a0404;
+}
+
+.text4 {
+  background-color: #fc79e6;
+  color: #070838;
+}
+
+.disco {
+  color: #070838;
+  font-family: "Yellowtail", cursive;
+  font-style: oblique;
+  line-height: 2;
+  background-color: #5858f8;
+}
+
+.disco ol {
+  display: block;
+}
+
+.disco h2 {
+  font-size: 1.8;
+  font-family: "Yellowtail", cursive;
+  color: #0a0404;
+  text-align: center;
+}
+
+.disco h3 {
+  font-size: 1.3rem;
+  font-family: "Yellowtail", cursive;
+  color: #0a0909;
+  text-align: center;
+}
+
+.footer {
+  background-color: #fc79e6;
+  color: "Yellowtail", cursive;
+  padding: 20px;
+  text-align: right;
+}
+/*# sourceMappingURL=estilo.css.map */
