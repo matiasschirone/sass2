@@ -1,0 +1,61 @@
+@mixin estilocaja ($color,$bg){
+    background-color: $bg;
+    color: $color;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    font-family: $ff_letra;
+    font-style: oblique;
+    line-height: 2;
+    text-align: center;
+    font-size: 1.5;
+    width: 40%;
+}
+.caja1{
+    @include estilocaja($bg1,$color1) 
+}
+.caja2{
+    @include estilocaja($bg2,$color2) 
+}
+.caja3{
+    @include estilocaja($bg3,$color3) 
+}
+.caja4{
+    @include estilocaja($bg2,$color2) 
+}
+.text{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    font-family: $ff_letra;
+    font-style: oblique;
+    line-height: 2;
+    text-align: center;
+    font-size: 1.5;
+    width: 35%; 
+}
+   
+    .text1{
+        @extend.text;
+        background-color: $bg1;
+        color: $color1;
+        
+    }
+    .text2{
+        @extend.text;
+        background-color: $bg3;
+        color: $color3;
+        
+    }
+    .text3{
+        @extend.text;
+        background-color: $bg2;
+        color: $color2
+
+    }
+    .text4{
+        @extend.text;
+        background-color: $bg3;
+        color: $color3;
+     
+    }

@@ -1,0 +1,22 @@
+.disco{
+    color: $color3;
+    font-family: $ff_letra;
+    font-style: oblique;
+    line-height: 2;
+    background-color: $bg1;
+    ol{
+        display: block;
+    }
+    h2{
+        font-size: 1.8;
+        font-family: $ff_letra;
+        color: $color2; 
+        text-align: center;
+    }
+    h3{
+        font-size: 1.3rem;
+        font-family: $ff_letra;
+        color: $color1; 
+        text-align: center;
+    }
+}
